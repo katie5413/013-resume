@@ -96,7 +96,7 @@ p {
   margin: 0px;
 }
 
-.b {
+.w {
   color: #3333cc;
 }
 
@@ -1417,7 +1417,7 @@ p {
   width: 100%;
 }
 
-.single-work .b {
+.single-work .w {
   position: absolute;
   top: 0;
   left: 0;
@@ -1558,7 +1558,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-.single-work .b .work-content ul li a:hover {
+.single-work .w .work-content ul li a:hover {
   background-color: #fff;
   color: #3333cc;
 }
@@ -1571,6 +1571,11 @@ p {
 .single-work .t .work-content ul li a:hover {
   background-color: #fff;
   color: #F5BE1B;
+}
+
+.single-work .wlack .work-content ul li a:hover {
+  background-color: #fff;
+  color: #3333cc;
 }
 
 .single-work .work-overlay .work-content ul li:nth-of-type(1) {
