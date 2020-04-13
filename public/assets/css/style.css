@@ -255,6 +255,43 @@ p {
   border-color: #F5BE1B;
 }
 
+.btn {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #F0F0F0;
+  padding: 0 10px;
+  font-size: 15px;
+  line-height: 48px;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(80, 78, 72, 0.55);
+  -moz-box-shadow: 0px 5px 8px 0px rgba(80, 78, 72, 0.55);
+  box-shadow: 0px 5px 8px 0px rgba(80, 78, 72, 0.55);
+  background-color: #F0F0F0;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #D0D0D0;
+  color: gray;
+  border-color: #D0D0D0;
+}
+
 /*===== All Section Title Style =====*/
 
 .section-title .title {
@@ -351,7 +388,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #3333cc #3333cc #ddd;
+  border-color: #EA327D #3333cc #F5BE1B;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -1404,11 +1441,6 @@ p {
   }
 }
 
-.work-filter-btn {
-  z-index: auto;
-  display: inline-block;
-}
-
 .single-work {
   position: relative;
 }
@@ -1619,6 +1651,26 @@ p {
 
 .more {
   display: none;
+}
+
+.filter-btn {
+  display: inline-block;
+}
+
+.all-btn a:hover {
+  color: gray;
+}
+
+.web-btn a:hover {
+  color: gray;
+}
+
+.design-btn a:hover {
+  color: gray;
+}
+
+.teach-btn a:hover {
+  color: gray;
 }
 
 .work-more-btn {

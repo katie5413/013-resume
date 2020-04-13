@@ -128,6 +128,32 @@
     );
   });
 
+  //Filter
+  $(".all-btn").on("click", function (event) {
+    $(".design-work").css("display", "inline");
+    $(".teach-work").css("display", "inline");
+    $(".web-work").css("display", "inline");
+    $(".work-more-btn").css("display", "none");
+  });
+  $(".web-btn").on("click", function (event) {
+    $(".web-work").css("display", "inline");
+    $(".design-work").css("display", "none");
+    $(".teach-work").css("display", "none");
+    $(".work-more-btn").css("display", "none");
+  });
+  $(".teach-btn").on("click", function (event) {
+    $(".teach-work").css("display", "inline");
+    $(".design-work").css("display", "none");
+    $(".web-work").css("display", "none");
+    $(".work-more-btn").css("display", "none");
+  });
+  $(".design-btn").on("click", function (event) {
+    $(".design-work").css("display", "inline");
+    $(".teach-work").css("display", "none");
+    $(".web-work").css("display", "none");
+    $(".work-more-btn").css("display", "none");
+  });
+
   //Show more
   function workMore() {
     $(".work-more").on("click", function (event) {
