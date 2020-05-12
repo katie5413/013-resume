@@ -27,7 +27,6 @@
 
   $(window).on("scroll", function (event) {
     var scroll = $(window).scrollTop();
-    console.log(scroll);
     if (scroll < 10) {
       $(".navigation").removeClass("sticky");
     } else {
