@@ -1222,7 +1222,17 @@ p {
 .header-content .header-introduce{
   display: flex;
   justify-content: space-evenly;
+  margin: 10px 10px 0px;
 }
+
+
+@media  (max-width: 700px) {
+  .header-btn {
+    display: block;
+    text-align: center;
+  }
+}
+
 
 /*===========================
         3.ABOUT css 
