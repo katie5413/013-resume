@@ -1328,10 +1328,10 @@ p {
 }
 
 .single-experience {
-  height: 650px;
+  height: auto;
   background-color: #fff;
   border: 1px solid #eceff8;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 25px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1341,10 +1341,10 @@ p {
 }
 
 .second-line {
-  height: 600px;
+  height: auto;
   background-color: #fff;
   border: 1px solid #eceff8;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 25px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
