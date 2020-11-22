@@ -4,7 +4,7 @@
   //===== Prealoder
 
   $(window).on("load", function (event) {
-    $(".preloader").delay(500).fadeOut(500);
+    $(".preloader").delay(100).fadeOut(500);
   });
 
   //===== Mobile Menu
@@ -78,7 +78,7 @@
 
   $(".counter").counterUp({
     delay: 10,
-    time: 1600,
+    time: 100,
   });
 
   //===== Magnific Popup
