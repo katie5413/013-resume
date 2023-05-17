@@ -145,8 +145,6 @@ p {
 /*===== All Button Style =====*/
 
 .main-btn {
-    margin-top: 10px;
-    margin-right: 10px;
     display: inline-block;
     font-weight: 500;
     text-align: center;
@@ -198,8 +196,6 @@ p {
 }
 
 .second-btn {
-    margin-top: 10px;
-    margin-right: 10px;
     font-weight: 500;
     text-align: center;
     white-space: nowrap;
@@ -1258,6 +1254,7 @@ p {
 .header-btn {
     display: flex;
     justify-content: space-evenly;
+    gap: 12px;
 }
 
 .header-content .header-introduce {
@@ -1734,6 +1731,8 @@ p {
 }
 
 .work-more-btn {
+    width: fit-content;
+    margin: auto;
     color: white;
 }
 
